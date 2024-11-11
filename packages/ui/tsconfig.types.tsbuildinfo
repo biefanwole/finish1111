@@ -1,0 +1,1 @@
+{"root":["./src/sfcbutton.vue","./src/tsxbutton.tsx","./src/components.ts","./src/entry.ts","./src/index.ts","./src/plugins.ts","./src/avatar/avatar.vue","./src/avatar/components.ts","./src/avatar/index.ts","./src/button/button.tsx","./src/button/index.ts","./src/link/link.tsx","./src/link/index.ts","./src/utils/with-install.ts"],"version":"5.6.3"}

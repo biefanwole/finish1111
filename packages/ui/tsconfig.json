@@ -4,7 +4,6 @@
     "jsxImportSource": "vue",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
-    // "moduleResolution": "node",
     "moduleResolution": "Bundler",
     "strict": false,
     "noFallthroughCasesInSwitch": true,
@@ -13,7 +12,8 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "skipLibCheck": true
+
   },
-  "include": ["**/src/**/*"],
-  "exclude": ["node_modules"]
+  "include": ["src/**/*"],
+  "exclude": ["**/test/**/*"] // 排除不需要的文件
 }
