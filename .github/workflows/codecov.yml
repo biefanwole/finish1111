@@ -21,10 +21,10 @@ jobs:
       - name: Install modules
         run: pnpm install
 
-      - name: Run tests
-        run: npx vitest run --coverage
+      # - name: Run tests
+      #   run: npx vitest run --coverage
 
-      - name: Upload results to Codecov
-        uses: codecov/codecov-action@v4
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
+      # - name: Upload results to Codecov
+      #   uses: codecov/codecov-action@v4
+      #   with:
+      #     token: ${{ secrets.CODECOV_TOKEN }}

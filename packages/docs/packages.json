@@ -1,9 +1,10 @@
 {
-  "name": "@lqy0/ssy-ui",
+  "name": "@lqy0/ssy-ui-docs",
   "type": "module",
   "version": "1.0.0",
   "private": true,
   "description": "组件库文档",
+  "author": "lqy",
   "license": "ISC",
   "keywords": [],
   "main": "index.js",
@@ -14,7 +15,6 @@
   },
   "dependencies": {
     "@vitejs/plugin-vue-jsx": "catalog:",
-    "@w4ng3/invis-ui": "workspace:^",
     "vite": "catalog:"
   },
   "devDependencies": {
